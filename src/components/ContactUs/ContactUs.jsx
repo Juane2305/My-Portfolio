@@ -1,10 +1,10 @@
-// import emailjs from '@emailjs/browser';
+import emailjs from '@emailjs/browser';
 import { useState, useRef } from 'react';
 // import Aos from 'aos';
 // import 'aos/dist/aos.css';
-import { useEffect } from 'react';
+// import { useEffect } from 'react';
 // import { useTranslation } from 'react-i18next';
-// import Swal from 'sweetalert2';
+import Swal from 'sweetalert2';
 // import background from '../../public/curvewave.svg'
 
 const ContactUs = () => {
@@ -27,17 +27,18 @@ const ContactUs = () => {
   const handleChange = (event) => {
     setData({...data, [event.target.name]: event.target.value })
   }
-
+  const messageSuccess = 'Your message has been successfully sent!'
+  const messageError = 'Your message could not be sent'
   // const messageSuccess = i18n.language == 'en' ?  'Your message has been successfully sent!' : '¡Su consulta ha sido enviada con éxito!'
   // const messageError = i18n.language == 'en' ?  'Your message could not be sent' : 'No se ha podido enviar su consulta'
 
-  // console.log(messageSuccess);
+  console.log(messageSuccess);
 
   const handleSubmit = (e) => {
       e.preventDefault();
 
-      const serviceId = 'service_qkgeyzb'
-      const templateId = 'template_2wn43ia'
+      const serviceId = 'service_envrsj9'
+      const templateId = 'template_ioq3qen'
       const publicKey = 'i9JqoBg9vA0X6dC52'
 
       emailjs.sendForm(serviceId, templateId, refForm.current, publicKey)
