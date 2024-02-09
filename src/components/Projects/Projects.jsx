@@ -8,15 +8,15 @@ const Projects = () => {
         <h1 className="text-[4rem] pt-10 text-[#f3f3dc] font-bold text-center">
           My Projects
         </h1>
-        <h2 className="text-[#422a72] font-semibold text-center pb-10 text-[2rem]">
+        <h2 className="text-gray-900 font-semibold text-center pb-10 text-[2rem]">
           Here are some of my best projects
         </h2>
         <div className='flex flex-col items-center py-16'>
             <p className='text-[#f3f3dc] text-[2rem] font-semibold pb-5'>Elizca</p>
-            <div className='flex items-center'>
-                <img src="https://res.cloudinary.com/dfschbyq2/image/upload/v1707368653/elizca_okwtwo.png" alt="" className='w-[50%]'/>
+            <div className='flex flex-col  items-center'>
+                <img src="https://res.cloudinary.com/dfschbyq2/image/upload/v1707368653/elizca_okwtwo.png" alt="" className='w-[40rem] xl:w-[60rem]'/>
                 <div>
-                  <p className='text-[#f3f3dc] px-10 text-[25px]'>Elizca is a venture that I have with one more partner, where we focus on creating custom websites of all kinds. We specialize in crafting personalized web pages tailored to the unique needs and preferences of our clients. Whether it's for businesses, individuals, or organizations, we work closely with our clients to ensure that their vision is translated into a functional and aesthetically pleasing website. Our goal is to deliver high-quality web solutions that not only meet but exceed our clients' expectations.</p>
+                  <p className='hidden lg:block text-[#f3f3dc] px-10 pt-20 text-[25px]'>Elizca is a venture that I have with one more partner, where we focus on creating custom websites of all kinds. We specialize in crafting personalized web pages tailored to the unique needs and preferences of our clients. Whether it's for businesses, individuals, or organizations, we work closely with our clients to ensure that their vision is translated into a functional and aesthetically pleasing website. Our goal is to deliver high-quality web solutions that not only meet but exceed our client's expectations.</p>
                   <div className='flex flex-col items-center  space-y-5'>
                     <div className='flex justify-center items-center py-5  space-x-4'>
                       <a className='transform hover:scale-110 duration-700' href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="65" height="65"/> </a>
@@ -36,9 +36,9 @@ const Projects = () => {
         
         <div className='flex flex-col items-center py-16'>
             <p className='text-[#f3f3dc] text-[2rem] font-semibold pb-5'>M&J Agency</p>
-            <div className='flex items-center'>
+            <div className='flex flex-col-reverse  items-center'>
             <div>
-                <p className='text-[#f3f3dc] px-10 text-[25px]'>M&J Agency is a website designed for a client in the finance and accounting sector.It showcases services such as financial consulting and accounting, aiming to convey expertise and reliability. The user-friendly design provides easy access to valuable information, enhancing the agency's credibility and attracting potential clients.</p>
+                <p className='hidden lg:block text-[#f3f3dc] px-10 pt-20 text-[25px]'>M&J Agency is a website designed for a client in the finance and accounting sector.It showcases services such as financial consulting and accounting, aiming to convey expertise and reliability. The user-friendly design provides easy access to valuable information, enhancing the agency's credibility and attracting potential clients.</p>
                 
                 <div className='flex flex-col items-center space-y-5'>
                   <div className='flex justify-center items-center py-5 space-x-4 '>
@@ -52,7 +52,7 @@ const Projects = () => {
                 </div>
             </div>
                 
-                <img src="https://res.cloudinary.com/dfschbyq2/image/upload/v1707369516/mj-agency_u59jpa.png" alt="" className='w-[50%]'/>
+                <img src="https://res.cloudinary.com/dfschbyq2/image/upload/v1707369516/mj-agency_u59jpa.png" alt="" className='w-[40rem] xl:w-[60rem]'/>
             </div>
         </div>
       </div>
